@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cachorrinho Feliz - PetShop</title>
+    <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <style>
+      .banner {
+        background: url('fotos/banner-petshop.jpg') center/cover no-repeat;
+        height: 450px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-shadow: 2px 2px 4px #000;
+      }
+      .img-padrao {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="banner">
+   <h1 class="display-4 fw-bold">PetShop Cachorrinho Feliz</h1>
+   <p class="fs-4 fw-semibold">Cuidando com amor de quem você mais ama 🐶🐱</p>
+
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-warning navbar-light">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-dark" href="index.html">🐾 Cachorrinho Feliz</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="quem_somos.html">Quem Somos</a></li>
+            <li class="nav-item"><a class="nav-link" href="todos_produtos.html">Produtos</a></li>
+            <li class="nav-item"><a class="nav-link" href="contatos.html">Contatos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row text-center mb-4">
+        <h2 class="text-warning">Nossos Serviços</h2>
+        <p>Cuidado, carinho e qualidade para seu melhor amigo!</p>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="fotos/banho.jpg" class="img-padrao" alt="Banho e tosa">
+          <h5>Banho & Tosa</h5>
+          <p>Higiene e cuidado com os melhores produtos do mercado.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="fotos/vacinacao.jpg" class="img-padrao" alt="Vacinação">
+          <h5>Vacinação</h5>
+          <p>Segurança e proteção com vacinas aplicadas por profissionais.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="fotos/acessorios.jpg" class="img-padrao" alt="Acessórios">
+          <h5>Acessórios e Rações</h5>
+          <p>As melhores marcas e novidades para cães e gatos!</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-warning text-center text-dark mt-5 p-4">
+      <p>© 2025 Cachorrinho Feliz PetShop | Desenvolvido por Marcelo Dukeveis</p>
+      <p>(49) 9999-5257</p>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
